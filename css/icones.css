@@ -1,0 +1,28 @@
+.icones {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(29, 14, 94);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.icones:hover {
+    background-color: rgba(76, 43, 226, 0.671);
+    box-shadow: 0px 0px 20px rgb(76, 43, 226);
+}
+
+.icones:hover+* {
+    display: flex;
+    background: orange;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 20px white;
+}
+
+.icones img {
+    width: 35px;
+    height: 35px;
+}

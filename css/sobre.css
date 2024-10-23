@@ -1,0 +1,57 @@
+.sobre {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sobre h1 {
+    color: rgb(140, 0, 255);
+    width: fit-content;
+}
+
+.texto-branco {
+    color: white;
+    padding: 10px;
+}
+
+.texto-roxo {
+    color: rgb(140, 0, 255);
+    padding: 10px;
+}
+
+.artigo-sobre {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    width: 100%;
+}
+
+.artigo-sobre img {
+    width: 300px;
+    height: auto;
+    object-fit: fill;
+    border-radius: 25px;
+}
+
+.sobre-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre-info div:nth-last-child(1) {
+    gap: 20px;
+    font-size: 30px;
+}
+
+.sobre-info div a i:hover {
+    border-radius: 50%;
+    background-color: rgba(76, 43, 226, 0.671);
+    box-shadow: 0px 0px 20px rgb(66, 26, 241);
+}
+
+.sobre-info p {
+    text-align: justify;
+}
