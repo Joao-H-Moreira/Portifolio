@@ -62,11 +62,10 @@
     translate: -50% -50%;
     width: 100%;
     height: 100%;
-    background-image: conic-gradient(from var(--angle), rgb(217, 255, 0), blue, rgb(1, 75, 1), rgb(217, 255, 0));
+
     z-index: -1;
     padding: 2px;
     border-radius: 10px;
-    animation: spin 5s linear infinite;
 }
 
 .projetos-flex::before {
@@ -106,17 +105,11 @@
 
 .info-do-projeto a {
     text-decoration: none;
-
     width: 200px;
     height: 30px;
-
     text-align: center;
-    padding-top: 10px;
-
     border-radius: 20px;
-
     background-color: blue;
-
     margin: 0 auto 0 auto;
     transition: all 0.5s ease-in;
 }
@@ -124,9 +117,7 @@
 .info-do-projeto a:hover {
     border-top: 2px solid blueviolet;
     border-bottom: 2px solid blueviolet;
-
     box-shadow: 0px 0px 30px blueviolet;
-
     text-shadow: 3px 3px 3px white;
     font-size: 18px;
 }
