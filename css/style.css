@@ -4,6 +4,7 @@
 @import url(sobre.css);
 @import url(certificados.css);
 @import url(projetos.css);
+@import url(contatos.css);
 
 * {
     margin: 0;
