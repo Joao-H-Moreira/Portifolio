@@ -142,7 +142,7 @@
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    filter: brightness(0.4);
+    filter: brightness(0.98);
     transition: all 0.4s linear;
 }
 

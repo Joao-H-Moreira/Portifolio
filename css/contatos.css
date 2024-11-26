@@ -1,56 +1,30 @@
-.contatos .imagens-flex {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 15px;
-    width: 100%;
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
-
+.contatos{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 6%;
 }
 
-.item,
-.item img {
-    width: fit-content;
-    filter: opacity(0.6);
-}
-
-.contatos .item {
-    filter: brightness(0.2) blur(1px);
-    transition: all 0.4s linear;
-
-}
-
-.contatos .item:hover {
-    filter: brightness(1);
-    transform: translateZ(30px);
-}
-
-.contatos .item:hover img {
-    filter: opacity(1);
-}
-
-.imagens-flex img {
-    width: 220px;
-    height: 220px;
+form{
+    background: #3b27ac;;
+    height: 450px;
+    padding: 40px;
     border-radius: 20px;
 }
 
-.contatos .link-certificados {
-    width: 100%;
-    margin-top: 20px;
+form h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 22pt;
 }
 
-.link-contatos a {
-    text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    filter: brightness(0.4);
-    transition: all 0.4s linear;
+form p{
+    text-align: center;
+    margin-bottom: 25px;
 }
 
-.link-contatos a:hover {
-    filter: brightness(1);
-    text-shadow: 0px 0px 5px white;
+form .input-single{
+    position: relative;
+    margin: 30px 0;
 }
+
